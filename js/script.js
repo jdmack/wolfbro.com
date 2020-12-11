@@ -17,32 +17,11 @@ $(document).ready(function() {
 
     setTimeout(() => { $(window).scrollTop(0); }); 
 
+    $("#output").hide();
+
     log("Page loaded");
 });
 
-function openTab()
-{
-    $("#debug").append("Test");
-    
-  
-    // Get all elements with class="tabcontent" and hide them
-    $(".tabcontent").each(function() {
-        $(this).hide()//prop("display", "none");
-    });
-
-    $(this).show();
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    // let tablinks = $(".tablinks");
-
-    // for (let i = 0; i < tablinks.length; i++) {
-    //   tablinks[i].className = tablinks[i].className.replace(" active", "");
-    // }
-  
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    // document.getElementById(tabName).style.display = "block";
-    // evt.currentTarget.className += " active";
-  } 
 
 function renderFAQ(parent)
 {

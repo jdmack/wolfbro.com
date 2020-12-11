@@ -34,3 +34,33 @@ body {
     width: 50px;
     height: 50px;
 }
+
+  footer {
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #454545;
+    /* width: 702px; */
+    text-align: center;
+
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none
+  }
+  footer a:hover {
+    color: #0066ff;
+    text-decoration: bold;
+  }
+  footer img {
+    vertical-align: text-bottom;
+  }
+  footer hr {
+    padding: 0px;
+    margin: 0px;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge none none none;
+  }
