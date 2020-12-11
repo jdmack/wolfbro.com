@@ -3,16 +3,20 @@ $(document).ready(function() {
 
     // Initialize components
     $("#tabs").tabs();
+
+    $( 'ul.ui-tabs-nav a' ).bind( 'click', function(e){
+        e.preventDefault();
+    });
+
     renderFAQ($("#tab-faq"));
     $(".faq-accordion").accordion({
         heightStyle: "content",
         collapsible: true,
-        active: false});
+        active: false
+    });
 
-    // $(".tablinks").click(openTab);
-    // $("#tab-home").trigger();
-    // Scroll page to top
-    $(this).scrollTop(0);
+    setTimeout(() => { $(window).scrollTop(0); }); 
+
     log("Page loaded");
 });
 
