@@ -9,13 +9,12 @@
     <title>WolfBro.com</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../css/editor.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/themes/jquery-ui-1.12.1.dot_luv/jquery-ui.css">
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -23,65 +22,71 @@
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
 
     <script src="js/script.js"></script>
-    <script src="js/values.js"></script>
+    <script src="js/wolf-common.js"></script>
+    <script src="js/faq.js"></script>
 
   </head>
 
-  <body><div class="row" style=""><div class="col-sm-4"></div><div class="col-sm-4 col-5 col-md-6"><div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-       <h1>WolfBro</h1>
-        
-        <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'London')">Home</button>
-  <button class="tablinks" onclick="openTab(event, 'Paris')">FAQ</button>
-  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Resources</button>
-</div>
+  <body id="main-body">
+    <div id="main-div" class="content"><!--<div class="row">-->
+      <!--<div class="col-sm-4"></div>-->
+      <div><!--<div class="col-sm-4 col-5 col-md-6">-->
+        <div class="container">
+          <div class="header clearfix">
+          <!--
+            <nav>
+              <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          -->
+            <h1>WolfBro</h1>
+            <img src="media/website_banner.png" style="max-width: 100%">
+          </div>
+              
+          <!-- <div class="minh"> --> <div>
+            <div id="tabs">
+              <ul>
+                <li><a href="#tab-home">Home</a></li>
+                <li><a href="#tab-faq">FAQ</a></li>
+                <li><a href="#tab-resources">Resources</a></li>
+              </ul>
 
-<!-- Tab content -->
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>London is the capital city of England.</p>
-</div>
+              <div id="tab-home" class="page-div">
+                <div class="minh">
+                <h2>Home</h2>
+                <p>Hi. I'm WolfBro. </p>
+                <p>I'm a hobbyist Twitch Streamer, mostly Dead By Daylight
+                  but occasionally other games.</p>
+                </div>
+              </div>
 
-<div id="FAQ" class="tabcontent">
-  <h3>FAQ</h3>
-  <p>Paris is the capital of France.</p>
-</div>
+              <div id="tab-faq" class="page-div">
+                <h2>FAQ</h2>
+              </div>
 
-<div id="Resources" class="tabcontent">
-  <h3>Resources</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-        
+              <div id="tab-resources" class="page-div">
+                <h2>ghtResources</h2>
+                <p></p>
+              </div>
+            </div>
+        </div>
+      </div>
+        <footer class="footer">
+          <p>© Company 2017</p>
+        </footer>
+      </div>
     </div>
+      <div id="output"></div>
 
-      
-
-        
-
-        
-
-      <footer class="footer">
-        <p>© Company 2017</p>
-      </footer>
-
-    </div></div></div><div class="col-sm-4  col-2"></div><div class="row" style=""></div>
-
-     <!-- /container -->
-  
-
-</body>
+    <!--<div class="col-sm-4  col-2"></div>-->
+  </body>
 </html>

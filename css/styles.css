@@ -1,0 +1,31 @@
+.minh {
+    min-height: 500px;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/* div#main-div {
+    min-height: 1000px;
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+} */
+
+
+.faq-section {
+
+}
+
+.faq-question {
+
+}
+
+.faq-answer {
+    font-size: medium;
+    }
+.faq-answer a {
+    color: blue;
+}
