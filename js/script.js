@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     // $(".tablinks").click(openTab);
     // $("#tab-home").trigger();
+    // Scroll page to top
+    $(this).scrollTop(0);
     log("Page loaded");
 });
 
