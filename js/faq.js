@@ -68,10 +68,6 @@ var faqContent = {
                     "answer": "Killer main."
                 },
                 {
-                    "question": "Do you have a main killer?",
-                    "answer": "I am a Nurse main."
-                },
-                {
                     "question": "Do you play survivor?",
                     "answer": "Yes but I'm not as good at survivor as I am killer. I also think killer "
                         + "gameplay is more interesting for streaming so I usually prioritize that unless "
